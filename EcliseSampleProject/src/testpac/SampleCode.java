@@ -6,6 +6,7 @@ public class SampleCode {
 		// TODO Auto-generated method stub
 		
 		System.out.print("TestMSG");
+		System.out.print("Hello");
 
 	}
 
