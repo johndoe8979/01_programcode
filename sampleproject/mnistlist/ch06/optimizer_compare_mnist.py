@@ -26,7 +26,7 @@ for key in optimizers.keys():
     networks[key] = MultiLayerNet(
         input_size=784, hidden_size_list=[100, 100, 100, 100],
         output_size=10)
-    train_loss[key] = []    
+    train_loss[key] = []
 
 
 # 2:訓練の開始==========

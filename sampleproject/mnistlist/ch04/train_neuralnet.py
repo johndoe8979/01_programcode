@@ -3,8 +3,8 @@ import sys, os
 sys.path.append(os.pardir)  # 親ディレクトリのファイルをインポートするための設定
 import numpy as np
 import matplotlib.pyplot as plt
-from dataset.mnist import load_mnist
-from two_layer_net import TwoLayerNet
+from mnistlist.dataset.mnist import load_mnist
+from mnistlist.ch04.two_layer_net import TwoLayerNet
 
 # データの読み込み
 (x_train, t_train), (x_test, t_test) = load_mnist(normalize=True, one_hot_label=True)
@@ -28,8 +28,8 @@ for i in range(iters_num):
     t_batch = t_train[batch_mask]
     
     # 勾配の計算
-    #grad = network.numerical_gradient(x_batch, t_batch)
-    grad = network.gradient(x_batch, t_batch)
+    grad = network.numerical_gradient(x_batch, t_batch)
+    #grad = network.gradient(x_batch, t_batch)
     
     # パラメータの更新
     for key in ('W1', 'b1', 'W2', 'b2'):
