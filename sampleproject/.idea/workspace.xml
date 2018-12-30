@@ -1,15 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43892e46-553f-41c9-bc0b-b73063126d94" name="Default Changelist" comment="20181229_masakishimizu">
-      <change afterPath="$PROJECT_DIR$/common/LearningFunction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/TrainNeuralNetwork.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="43892e46-553f-41c9-bc0b-b73063126d94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common/MulLayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/testscript.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/TwoLayerNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/TwoLayerNet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mnistlist/ch04/train_neuralnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch04/train_neuralnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/ch04/two_layer_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch04/two_layer_net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/ch05/gradient_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch05/gradient_check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/ch05/train_neuralnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch05/train_neuralnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/ch05/two_layer_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch05/two_layer_net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/ch06/batch_norm_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch06/batch_norm_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mnistlist/ch06/optimizer_compare_mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch06/optimizer_compare_mnist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/common/gradient.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/common/gradient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/ch06/overfit_dropout.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch06/overfit_dropout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/ch06/overfit_weight_decay.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch06/overfit_weight_decay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/ch06/weight_init_activation_histogram.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch06/weight_init_activation_histogram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/ch06/weight_init_compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch06/weight_init_compare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/common/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/common/layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch01/hungry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch01/img_show.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch01/man.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch01/simple_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch01/sin_cos_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch01/sin_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch02/and_gate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch02/nand_gate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch02/or_gate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch02/xor_gate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch03/mnist_show.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch03/neuralnet_mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch03/neuralnet_mnist_batch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch03/relu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch03/sample_weight.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch03/sig_step_compare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch03/sigmoid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch03/step_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch04/gradient_1d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch04/gradient_2d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch04/gradient_method.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch04/gradient_simplenet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch04/train_neuralnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch04/two_layer_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch05/buy_apple.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch05/buy_apple_orange.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch05/gradient_check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch05/layer_naive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch05/train_neuralnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch05/two_layer_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/batch_norm_gradient_check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/batch_norm_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/hyperparameter_optimization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/optimizer_compare_mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/optimizer_compare_naive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/overfit_dropout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/overfit_weight_decay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/weight_init_activation_histogram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/weight_init_compare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch07/apply_filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch07/gradient_check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch07/params.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch07/simple_convnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch07/train_convnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch07/visualize_filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch08/awesome_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch08/deep_convnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch08/deep_convnet_params.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch08/half_float_network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch08/misclassified_mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch08/train_deepnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/Layer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/gradient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/layers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/multi_layer_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/multi_layer_net_extend.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/optimizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/trainer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/dataset/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/sample_differntial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/dataset/lena.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/dataset/lena_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/dataset/mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/TrainNeuralNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/TrainNeuralNetwork.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,12 +93,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/sampleproject$train_neuralnet.coverage" NAME="train_neuralnet Coverage Results" MODIFIED="1546012965268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mnistlist/ch04" />
-    <SUITE FILE_PATH="coverage/sampleproject$optimizer_compare_mnist.coverage" NAME="optimizer_compare_mnist Coverage Results" MODIFIED="1546005517066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mnistlist/ch06" />
+    <SUITE FILE_PATH="coverage/sampleproject$train_neuralnet.coverage" NAME="train_neuralnet Coverage Results" MODIFIED="1546082046626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mnistlist/ch04" />
+    <SUITE FILE_PATH="coverage/sampleproject$weight_init_activation_histogram.coverage" NAME="weight_init_activation_histogram Coverage Results" MODIFIED="1546084199621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mnistlist/ch06" />
+    <SUITE FILE_PATH="coverage/sampleproject$gradient_check.coverage" NAME="gradient_check Coverage Results" MODIFIED="1546080283021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mnistlist/ch05" />
+    <SUITE FILE_PATH="coverage/sampleproject$TrainNeuralNetwork.coverage" NAME="TrainNeuralNetwork Coverage Results" MODIFIED="1546080535417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/sampleproject$overfit_dropout.coverage" NAME="overfit_dropout Coverage Results" MODIFIED="1546086152183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mnistlist/ch06" />
+    <SUITE FILE_PATH="coverage/sampleproject$batch_norm_test.coverage" NAME="batch_norm_test Coverage Results" MODIFIED="1546085013408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mnistlist/ch06" />
+    <SUITE FILE_PATH="coverage/sampleproject$overfit_weight_decay.coverage" NAME="overfit_weight_decay Coverage Results" MODIFIED="1546085825050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mnistlist/ch06" />
+    <SUITE FILE_PATH="coverage/sampleproject$optimizer_compare_mnist.coverage" NAME="optimizer_compare_mnist Coverage Results" MODIFIED="1546083453740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mnistlist/ch06" />
     <SUITE FILE_PATH="coverage/sampleproject$gradient_method.coverage" NAME="gradient_method Coverage Results" MODIFIED="1545991599127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mnistlist/ch04" />
+    <SUITE FILE_PATH="coverage/sampleproject$train_neuralnet__1_.coverage" NAME="train_neuralnet (1) Coverage Results" MODIFIED="1546081739745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mnistlist/ch05" />
     <SUITE FILE_PATH="coverage/sampleproject$gradient_1d.coverage" NAME="gradient_1d Coverage Results" MODIFIED="1545991488238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mnistlist/ch04" />
-    <SUITE FILE_PATH="coverage/sampleproject$TrainNeuralNetwork.coverage" NAME="TrainNeuralNetwork Coverage Results" MODIFIED="1546015371572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/sampleproject$sample_differntial.coverage" NAME="sample_differntial Coverage Results" MODIFIED="1546058195314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/sampleproject$weight_init_compare.coverage" NAME="weight_init_compare Coverage Results" MODIFIED="1546084423648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mnistlist/ch06" />
     <SUITE FILE_PATH="coverage/sampleproject$sample.coverage" NAME="sample Coverage Results" MODIFIED="1545999543689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/sampleproject$testscript.coverage" NAME="testscript Coverage Results" MODIFIED="1546079649022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -45,37 +129,16 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.31613755">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mnistlist/ch06/optimizer_compare_mnist.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="49" selection-start-line="49" selection-end-line="49" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/common/TwoLayerNet.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+                <state relative-caret-position="-268">
+                  <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
                   <folding>
-                    <element signature="e#0#40#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scripts/TrainNeuralNetwork.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="30" selection-start-line="30" selection-end-line="30" />
-                  <folding>
-                    <element signature="e#0#18#0" expanded="true" />
+                    <element signature="e#0#35#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -86,39 +149,99 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mnistlist/common/functions.py">
+            <entry file="file://$PROJECT_DIR$/mnistlist/ch06/optimizer_compare_mnist.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+                <state relative-caret-position="204">
+                  <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#16#47#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mnistlist/common/gradient.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mnistlist/ch04/two_layer_net.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-                </state>
-              </provider>
+            <entry file="file://$PROJECT_DIR$/mnistlist/ch06/optimizer_compare_naive.py">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/mnistlist/ch06/overfit_dropout.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mnistlist/ch06/overfit_weight_decay.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mnistlist/ch06/weight_init_activation_histogram.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+                  <folding>
+                    <element signature="e#16#34#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mnistlist/ch06/weight_init_compare.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mnistlist/common/optimizer.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mnistlist/ch04/train_neuralnet.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="527">
-                  <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+                  <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
                 </state>
               </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mnistlist/ch06/batch_norm_gradient_check.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mnistlist/ch06/batch_norm_test.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="582">
+                  <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+                  <folding>
+                    <element signature="e#16#34#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mnistlist/ch06/hyperparameter_optimization.py">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -135,6 +258,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ndarray</find>
+      <find>legend</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -198,10 +322,23 @@
         <option value="$PROJECT_DIR$/mnistlist/common/gradient.py" />
         <option value="$PROJECT_DIR$/scripts/TwoLayerNet.py" />
         <option value="$PROJECT_DIR$/mnistlist/ch04/two_layer_net.py" />
-        <option value="$PROJECT_DIR$/mnistlist/ch04/train_neuralnet.py" />
+        <option value="$PROJECT_DIR$/common/MulLayer.py" />
+        <option value="$PROJECT_DIR$/scripts/sample_differntial.py" />
         <option value="$PROJECT_DIR$/common/TwoLayerNet.py" />
+        <option value="$PROJECT_DIR$/scripts/testscript.py" />
+        <option value="$PROJECT_DIR$/mnistlist/common/layers.py" />
+        <option value="$PROJECT_DIR$/mnistlist/ch05/two_layer_net.py" />
+        <option value="$PROJECT_DIR$/mnistlist/ch05/gradient_check.py" />
         <option value="$PROJECT_DIR$/scripts/TrainNeuralNetwork.py" />
+        <option value="$PROJECT_DIR$/common/Layer.py" />
+        <option value="$PROJECT_DIR$/mnistlist/ch05/train_neuralnet.py" />
+        <option value="$PROJECT_DIR$/mnistlist/ch04/train_neuralnet.py" />
         <option value="$PROJECT_DIR$/mnistlist/ch06/optimizer_compare_mnist.py" />
+        <option value="$PROJECT_DIR$/mnistlist/ch06/weight_init_activation_histogram.py" />
+        <option value="$PROJECT_DIR$/mnistlist/ch06/weight_init_compare.py" />
+        <option value="$PROJECT_DIR$/mnistlist/ch06/batch_norm_test.py" />
+        <option value="$PROJECT_DIR$/mnistlist/ch06/overfit_weight_decay.py" />
+        <option value="$PROJECT_DIR$/mnistlist/ch06/overfit_dropout.py" />
       </list>
     </option>
   </component>
@@ -217,7 +354,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,12 +369,36 @@
             <path>
               <item name="sampleproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="sampleproject" type="462c0819:PsiDirectoryNode" />
+              <item name="mnistlist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sampleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sampleproject" type="462c0819:PsiDirectoryNode" />
+              <item name="mnistlist" type="462c0819:PsiDirectoryNode" />
+              <item name="ch04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sampleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sampleproject" type="462c0819:PsiDirectoryNode" />
+              <item name="mnistlist" type="462c0819:PsiDirectoryNode" />
+              <item name="ch06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sampleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sampleproject" type="462c0819:PsiDirectoryNode" />
+              <item name="mnistlist" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sampleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sampleproject" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,52 +426,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TrainNeuralNetwork">
-    <configuration name="TrainNeuralNetwork" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sampleproject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/TrainNeuralNetwork.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="gradient_method" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sampleproject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mnistlist/ch04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnistlist/ch04/gradient_method.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="optimizer_compare_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.overfit_dropout">
+    <configuration name="batch_norm_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sampleproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -324,7 +440,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnistlist/ch06/optimizer_compare_mnist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnistlist/ch06/batch_norm_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,7 +449,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="overfit_dropout" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sampleproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,12 +457,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mnistlist/ch06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/sample.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnistlist/ch06/overfit_dropout.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -355,7 +471,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_neuralnet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="overfit_weight_decay" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sampleproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -363,12 +479,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mnistlist/ch04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mnistlist/ch06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnistlist/ch04/train_neuralnet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnistlist/ch06/overfit_weight_decay.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="weight_init_activation_histogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sampleproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mnistlist/ch06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnistlist/ch06/weight_init_activation_histogram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="weight_init_compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sampleproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mnistlist/ch06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnistlist/ch06/weight_init_compare.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -379,11 +539,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TrainNeuralNetwork" />
-        <item itemvalue="Python.train_neuralnet" />
-        <item itemvalue="Python.optimizer_compare_mnist" />
-        <item itemvalue="Python.sample" />
-        <item itemvalue="Python.gradient_method" />
+        <item itemvalue="Python.overfit_dropout" />
+        <item itemvalue="Python.overfit_weight_decay" />
+        <item itemvalue="Python.batch_norm_test" />
+        <item itemvalue="Python.weight_init_compare" />
+        <item itemvalue="Python.weight_init_activation_histogram" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +566,8 @@
       <workItem from="1546000492658" duration="123000" />
       <workItem from="1546001249422" duration="7000" />
       <workItem from="1546004227090" duration="266000" />
-      <workItem from="1546054619436" duration="65000" />
+      <workItem from="1546054619436" duration="4739000" />
+      <workItem from="1546065648430" duration="15276000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1545998148815</created>
@@ -429,11 +590,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546054385595</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="20181229_masakishimizu">
+      <created>1546054729132</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546054729133</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24587000" />
+    <option name="totallyTimeSpent" value="44537000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,29 +613,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19189766" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2753404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.19176598" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" visible="true" weight="0.28968903" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.19176598" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" weight="0.22210184" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49840087" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="52" y="31" width="551" height="696" id="SciView" maximized="true" order="3" weight="0.29371002" />
+      <window_info active="true" anchor="right" x="73" y="31" width="1292" height="696" id="SciView" order="3" type="WINDOWED" visible="true" weight="0.29371002" />
       <window_info anchor="right" id="Database" order="4" weight="0.104477614" />
     </layout>
   </component>
@@ -493,20 +661,7 @@
     <entry file="file://$PROJECT_DIR$/mnistlist/ch03/neuralnet_mnist.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnistlist/ch04/gradient_method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="e#16#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mnistlist/ch04/gradient_simplenet.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mnistlist/ch04/gradient_2d.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/mnistlist/ch04/gradient_1d.py">
@@ -522,9 +677,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/77a5b49c-7c66-4a78-b5e5-fcd35e58936d/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnistlist/ch06/batch_norm_gradient_check.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/sample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -535,46 +687,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/showgraph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mnistlist/ch06/hyperparameter_optimization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/LearningFunction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mnistlist/ch06/optimizer_compare_mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/TrainNeuralNetwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mnistlist/common/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -585,27 +701,210 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnistlist/ch04/two_layer_net.py">
+    <entry file="file://$PROJECT_DIR$/scripts/showgraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/ch05/layer_naive.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/MulLayer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/testscript.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/Layer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/ch05/gradient_check.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/ch05/two_layer_net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/sample_differntial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/ch04/two_layer_net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/ch04/gradient_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/ch04/gradient_2d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/TrainNeuralNetwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/ch05/train_neuralnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/common/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/common/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mnistlist/ch04/train_neuralnet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/ch06/batch_norm_gradient_check.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/ch06/hyperparameter_optimization.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/ch06/optimizer_compare_naive.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/common/optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/ch06/optimizer_compare_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="e#16#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/ch06/weight_init_activation_histogram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/ch06/weight_init_compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/TwoLayerNet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="-268">
+          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/ch06/batch_norm_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/ch06/overfit_weight_decay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnistlist/ch06/overfit_dropout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>

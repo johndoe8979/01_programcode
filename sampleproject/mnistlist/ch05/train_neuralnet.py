@@ -1,10 +1,8 @@
 # coding: utf-8
-import sys, os
-sys.path.append(os.pardir)
-
 import numpy as np
-from dataset.mnist import load_mnist
-from two_layer_net import TwoLayerNet
+from mnistlist.dataset.mnist import load_mnist
+from mnistlist.ch05.two_layer_net import TwoLayerNet
+import matplotlib.pylab as plt
 
 # データの読み込み
 (x_train, t_train), (x_test, t_test) = load_mnist(normalize=True, one_hot_label=True)
@@ -28,7 +26,6 @@ for i in range(iters_num):
     t_batch = t_train[batch_mask]
     
     # 勾配
-    #grad = network.numerical_gradient(x_batch, t_batch)
     grad = network.gradient(x_batch, t_batch)
     
     # 更新
@@ -44,3 +41,14 @@ for i in range(iters_num):
         train_acc_list.append(train_acc)
         test_acc_list.append(test_acc)
         print(train_acc, test_acc)
+
+# Show Transition of loss rate
+markers = {'train': 'o', 'test': 's'}
+x = np.array(len(train_acc_list))
+plt.plot(x, train_acc_list, label='train accuracy')
+plt.plot(x, test_acc_list, label='test_accuracy', linestyle='--')
+plt.xlabel('epochs')
+plt.ylabel('accuracy')
+plt.ylim(0, 1.0)
+plt.legend(loc='lower right')
+plt.show()

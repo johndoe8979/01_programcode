@@ -27,7 +27,7 @@ for i in range(loop_count):
     batch_mask = np.random.choice(train_size, batch_size)
     x_batch = x_train[batch_mask]
     t_batch = t_train[batch_mask]
-    grad = network.get_numerical_gradient(x_batch, t_batch)
+    grad = network.get_fast_gradient(x_batch, t_batch)
 
     print("Loop Count : " + str(i))
 

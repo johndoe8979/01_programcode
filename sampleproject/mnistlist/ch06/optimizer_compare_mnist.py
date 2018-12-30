@@ -1,12 +1,9 @@
 # coding: utf-8
-import os
-import sys
 import matplotlib.pyplot as plt
 from mnistlist.common.util import smooth_curve
 from mnistlist.common.multi_layer_net import MultiLayerNet
 from mnistlist.dataset.mnist import load_mnist
 from mnistlist.common.optimizer import *
-sys.path.append(os.pardir)  # 親ディレクトリのファイルをインポートするための設定
 
 # 0:MNISTデータの読み込み==========
 (x_train, t_train), (x_test, t_test) = load_mnist(normalize=True)

@@ -5,11 +5,10 @@ import sys
 sys.path.append(os.pardir)  # 親ディレクトリのファイルをインポートするための設定
 import numpy as np
 import matplotlib.pyplot as plt
-from dataset.mnist import load_mnist
-from common.util import smooth_curve
-from common.multi_layer_net import MultiLayerNet
-from common.optimizer import SGD
-
+from mnistlist.dataset.mnist import load_mnist
+from mnistlist.common.util import smooth_curve
+from mnistlist.common.multi_layer_net import MultiLayerNet
+from mnistlist.common.optimizer import SGD
 
 # 0:MNISTデータの読み込み==========
 (x_train, t_train), (x_test, t_test) = load_mnist(normalize=True)
