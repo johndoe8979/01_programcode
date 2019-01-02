@@ -306,7 +306,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_iZGLUA5qEemgYMpqavrhlw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_3_aMcA5qEemubelmBP1fSQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_iD1tHw5qEemgYMpqavrhlw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_s0blIA6TEemPGuY2C_duTg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_iD1tHw5qEemgYMpqavrhlw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_iZGLUQ5qEemgYMpqavrhlw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -327,7 +327,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_iZGyYA5qEemgYMpqavrhlw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_3_cBoA5qEemubelmBP1fSQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_iD1GUA5qEemgYMpqavrhlw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_s0czRA6TEemPGuY2C_duTg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_iD1GUA5qEemgYMpqavrhlw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_8tXwYA5qEemubelmBP1fSQ" elementId="com.genuitec.eclipse.code.coffeescript" visible="false">
         <tags>Draggable</tags>
@@ -411,7 +411,7 @@
       <children xsi:type="menu:ToolControl" xmi:id="_if7MEA5qEemgYMpqavrhlw" elementId="org.eclipse.ui.ProgressBar" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_44-RsA5qEemubelmBP1fSQ" elementId="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar" contributionURI="bundleclass://org.eclipse.ui.intro/org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar">
+      <children xsi:type="menu:ToolControl" xmi:id="_ttZNcA6TEemPGuY2C_duTg" elementId="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar" contributionURI="bundleclass://org.eclipse.ui.intro/org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar">
         <persistedState key="introConfigId" value="org.eclipse.ui.intro.universalConfig"/>
         <persistedState key="lastPageId" value="qroot"/>
         <tags>Draggable</tags>
@@ -964,6 +964,7 @@
   <bindingTables xmi:id="_iiL14w5qEemgYMpqavrhlw" bindingContext="_iiL14g5qEemgYMpqavrhlw"/>
   <bindingTables xmi:id="_iiL15Q5qEemgYMpqavrhlw" bindingContext="_iiL15A5qEemgYMpqavrhlw"/>
   <bindingTables xmi:id="_iiL15w5qEemgYMpqavrhlw" bindingContext="_iiL15g5qEemgYMpqavrhlw"/>
+  <bindingTables xmi:id="_szM2EQ6TEemPGuY2C_duTg" bindingContext="_szM2EA6TEemPGuY2C_duTg"/>
   <rootContext xmi:id="_iDcEYw5qEemgYMpqavrhlw" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs and Windows" description="Either a dialog or a window is open">
     <children xmi:id="_iDcEZA5qEemgYMpqavrhlw" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.platform" name="In Windows" description="A window is open">
       <children xmi:id="_iDcEZQ5qEemgYMpqavrhlw" elementId="org.eclipse.e4.ui.contexts.views" contributorURI="platform:/plugin/org.eclipse.platform" name="%bindingcontext.name.bindingView"/>
@@ -1080,6 +1081,7 @@
   <rootContext xmi:id="_iiL14g5qEemgYMpqavrhlw" elementId="org.eclipse.wst.ws.explorer.explorer" name="Auto::org.eclipse.wst.ws.explorer.explorer"/>
   <rootContext xmi:id="_iiL15A5qEemgYMpqavrhlw" elementId="com.genuitec.codemix.licenseactionset" name="Auto::com.genuitec.codemix.licenseactionset"/>
   <rootContext xmi:id="_iiL15g5qEemgYMpqavrhlw" elementId="com.genuitec.eclipse.code.ui.extensions.actionSet" name="Auto::com.genuitec.eclipse.code.ui.extensions.actionSet"/>
+  <rootContext xmi:id="_szM2EA6TEemPGuY2C_duTg" elementId="org.eclipse.egit.ui.SearchActionSet" name="Auto::org.eclipse.egit.ui.SearchActionSet"/>
   <descriptors xmi:id="_iGA3QA5qEemgYMpqavrhlw" elementId="org.eclipse.e4.ui.compatibility.editor" allowMultiple="true" category="org.eclipse.e4.primaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor">
     <tags>Editor</tags>
   </descriptors>
@@ -2785,6 +2787,26 @@
   <commands xmi:id="_iXdMlQ5qEemgYMpqavrhlw" elementId="AUTOGEN:::org.eclipse.ui.articles.action.contribution.view/org.eclipse.wst.wsi.ui.internal.actions.actionDelegates.ValidateWSIProfileActionDelegate" commandName="WS-I Profile Validator" description="Validate WS-I Message Log File" category="_iDwNeQ5qEemgYMpqavrhlw"/>
   <commands xmi:id="_3s6uQQ5qEemubelmBP1fSQ" elementId="com.genuitec.eclipse.code.ui.learning.commandid" commandName="%action.educationalmaterial.label" category="_iDwNeQ5qEemgYMpqavrhlw"/>
   <commands xmi:id="_3s6uQg5qEemubelmBP1fSQ" elementId="com.genuitec.eclipse.code.livechat.displaylivechat" commandName="Live Chat for CodeMix" category="_iDvmdg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnMQ6TEemPGuY2C_duTg" elementId="org.eclipse.egit.gitflow.ui.command.hotfixPublish" commandName="Publish Hotfix" category="_iDwNcg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnMg6TEemPGuY2C_duTg" elementId="org.eclipse.egit.gitflow.ui.command.featurePublish" commandName="Publish Feature" category="_iDwNcg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnMw6TEemPGuY2C_duTg" elementId="org.eclipse.egit.gitflow.ui.command.featureCheckout" commandName="Checkout Feature" category="_iDwNcg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnNA6TEemPGuY2C_duTg" elementId="org.eclipse.egit.ui.team.InstallLfsLocal" commandName="Enable LFS locally" category="_iDwNcg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnNQ6TEemPGuY2C_duTg" elementId="org.eclipse.egit.gitflow.ui.command.releasePublish" commandName="Publish Release" category="_iDwNcg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnNg6TEemPGuY2C_duTg" elementId="org.eclipse.egit.gitflow.ui.command.init" commandName="Init Gitflow..." category="_iDwNcg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnNw6TEemPGuY2C_duTg" elementId="org.eclipse.egit.gitflow.ui.command.releaseStart" commandName="Start Release" category="_iDwNcg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnOA6TEemPGuY2C_duTg" elementId="org.eclipse.egit.gitflow.ui.command.compareWithDevelop" commandName="Compare with develop branch" category="_iDwNcg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnOQ6TEemPGuY2C_duTg" elementId="org.eclipse.egit.gitflow.ui.command.featureStart" commandName="Start Feature" category="_iDwNcg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnOg6TEemPGuY2C_duTg" elementId="org.eclipse.egit.gitflow.ui.command.replaceWithDevelop" commandName="Replace with develop branch" category="_iDwNcg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnOw6TEemPGuY2C_duTg" elementId="org.eclipse.egit.gitflow.ui.command.featureFinish" commandName="Finish Feature" category="_iDwNcg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnPA6TEemPGuY2C_duTg" elementId="org.eclipse.egit.gitflow.ui.command.developCheckout" commandName="Checkout Develop" category="_iDwNcg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnPQ6TEemPGuY2C_duTg" elementId="org.eclipse.egit.gitflow.ui.command.hotfixFinish" commandName="Finish Hotfix" category="_iDwNcg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnPg6TEemPGuY2C_duTg" elementId="org.eclipse.egit.gitflow.ui.command.releaseFinish" commandName="Finish Release" category="_iDwNcg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnPw6TEemPGuY2C_duTg" elementId="org.eclipse.egit.gitflow.ui.command.hotfixStart" commandName="Start Hotfix" category="_iDwNcg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnQA6TEemPGuY2C_duTg" elementId="org.eclipse.egit.gitflow.ui.command.featureTrack" commandName="Track Feature" category="_iDwNcg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnQQ6TEemPGuY2C_duTg" elementId="org.eclipse.egit.ui.history.CompareWithHead" commandName="Compare with HEAD Revision" category="_iDwNeQ5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_silnQg6TEemPGuY2C_duTg" elementId="org.eclipse.egit.gitflow.ui.command.featureRebase" commandName="Rebase Feature" category="_iDwNcg5qEemgYMpqavrhlw"/>
+  <commands xmi:id="_slcG4A6TEemPGuY2C_duTg" elementId="com.genuitec.migrate.to.codemix" commandName="com.genuitec.migrate.to.codemix"/>
+  <commands xmi:id="_sy3e4A6TEemPGuY2C_duTg" elementId="AUTOGEN:::org.eclipse.egit.ui.SearchActionSet/org.eclipse.egit.ui.actions.OpenCommitSearchPage" commandName="Git..." category="_iDwNeQ5qEemgYMpqavrhlw"/>
   <addons xmi:id="_iDcEag5qEemgYMpqavrhlw" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_iDcEaw5qEemgYMpqavrhlw" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_iDcEbA5qEemgYMpqavrhlw" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -2796,7 +2818,7 @@
   <addons xmi:id="_iDcEcg5qEemgYMpqavrhlw" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_iDcEcw5qEemgYMpqavrhlw" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_iDfuwA5qEemgYMpqavrhlw" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_3tjAYA5qEemubelmBP1fSQ" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_iDvmYA5qEemgYMpqavrhlw" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_iDvmYQ5qEemgYMpqavrhlw" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
