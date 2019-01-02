@@ -2,89 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43892e46-553f-41c9-bc0b-b73063126d94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/MulLayer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/testscript.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/TwoLayerNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/TwoLayerNet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/ch04/train_neuralnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch04/train_neuralnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/ch05/gradient_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch05/gradient_check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/ch05/train_neuralnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch05/train_neuralnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/ch05/two_layer_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch05/two_layer_net.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/ch06/batch_norm_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch06/batch_norm_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/ch06/optimizer_compare_mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch06/optimizer_compare_mnist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/ch06/overfit_dropout.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch06/overfit_dropout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/ch06/overfit_weight_decay.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch06/overfit_weight_decay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/ch06/weight_init_activation_histogram.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch06/weight_init_activation_histogram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/ch06/weight_init_compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/ch06/weight_init_compare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/common/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnistlist/common/layers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch01/hungry.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch01/img_show.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch01/man.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch01/simple_graph.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch01/sin_cos_graph.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch01/sin_graph.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch02/and_gate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch02/nand_gate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch02/or_gate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch02/xor_gate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch03/mnist_show.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch03/neuralnet_mnist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch03/neuralnet_mnist_batch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch03/relu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch03/sample_weight.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch03/sig_step_compare.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch03/sigmoid.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch03/step_function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch04/gradient_1d.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch04/gradient_2d.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch04/gradient_method.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch04/gradient_simplenet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch04/train_neuralnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch04/two_layer_net.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch05/buy_apple.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch05/buy_apple_orange.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch05/gradient_check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch05/layer_naive.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch05/train_neuralnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch05/two_layer_net.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/batch_norm_gradient_check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/batch_norm_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/hyperparameter_optimization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/optimizer_compare_mnist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/optimizer_compare_naive.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/overfit_dropout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/overfit_weight_decay.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/weight_init_activation_histogram.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch06/weight_init_compare.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch07/apply_filter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch07/gradient_check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch07/params.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch07/simple_convnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch07/train_convnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch07/visualize_filter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch08/awesome_net.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch08/deep_convnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch08/deep_convnet_params.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch08/half_float_network.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch08/misclassified_mnist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/ch08/train_deepnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/Layer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/functions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/gradient.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/layers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/multi_layer_net.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/multi_layer_net_extend.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/optimizer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/trainer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/common/util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/dataset/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/sample_differntial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/dataset/lena.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/dataset/lena_gray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistlist/deep-learning-from-scratch-master/dataset/mnist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/TrainNeuralNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/TrainNeuralNetwork.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -342,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="459" />
     <option name="y" value="229" />
     <option name="width" value="1346" />
@@ -567,7 +485,7 @@
       <workItem from="1546001249422" duration="7000" />
       <workItem from="1546004227090" duration="266000" />
       <workItem from="1546054619436" duration="4739000" />
-      <workItem from="1546065648430" duration="15276000" />
+      <workItem from="1546065648430" duration="16177000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1545998148815</created>
@@ -597,11 +515,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546054729133</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="20181230_masakishimizu">
+      <created>1546154718227</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1546154718228</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44537000" />
+    <option name="totallyTimeSpent" value="45438000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -613,10 +538,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2753404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2753404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -635,7 +559,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" x="73" y="31" width="1292" height="696" id="SciView" order="3" type="WINDOWED" visible="true" weight="0.29371002" />
+      <window_info anchor="right" x="73" y="31" width="1292" height="696" id="SciView" order="3" type="WINDOWED" weight="0.29371002" />
       <window_info anchor="right" id="Database" order="4" weight="0.104477614" />
     </layout>
   </component>
@@ -645,7 +569,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testcommit" />
     <MESSAGE value="20181229_masakishimizu" />
-    <option name="LAST_COMMIT_MESSAGE" value="20181229_masakishimizu" />
+    <MESSAGE value="20181230_masakishimizu" />
+    <option name="LAST_COMMIT_MESSAGE" value="20181230_masakishimizu" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mnistlist/ch03/mnist_show.py">
